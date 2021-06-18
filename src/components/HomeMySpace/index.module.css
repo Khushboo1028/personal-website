@@ -1,0 +1,60 @@
+.horizontalLine {
+	border-top: 6px solid #272343;
+	margin-top: 3rem;
+}
+
+.imgStyle {
+	width: 20rem;
+	height: auto;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.title {
+	font-family: 'StencilStd';
+	color: #272343;
+}
+
+.description {
+	font-family: 'monoid';
+	color: #272343;
+	text-align: left;
+	padding-top: 1rem;
+}
+
+.button {
+	height: auto;
+	width: 20rem;
+	padding: 1rem;
+	margin-top: 1rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8rem;
+	/* text-transform: uppercase; */
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: #fdfdfd;
+	background-color: #272343;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+
+.button:hover {
+	background-color: #332d58;
+	box-shadow: 0px 15px 20px rgba(39, 35, 67, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 320px) {
+	.button {
+		width: 14rem;
+	}
+
+	.imgStyle {
+		width: 12rem;
+	}
+}

@@ -1,0 +1,63 @@
+.horizontalLine {
+	border-top: 6px solid #272343;
+	margin-top: 10rem;
+}
+
+.title {
+	font-family: 'StencilSTD';
+	color: #272343;
+}
+
+.dotIcon {
+	height: 4rem;
+	width: auto;
+}
+
+.date {
+	font-family: monoid;
+	font-weight: 900;
+	font-size: medium;
+	line-height: 1.5rem;
+}
+
+.connecter {
+	width: 0.3rem;
+	background-color: #272343;
+}
+
+.cardTitle {
+	font-family: STIXGeneral;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-bottom: 0rem;
+}
+
+@media only screen and (max-width: 871px) {
+	.cardTitle {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.cardTitle {
+		font-size: 0.8rem;
+	}
+
+	.dotIcon {
+		height: 3rem;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.cardTitle {
+		font-size: 0.6rem;
+	}
+}
+
+@media only screen and (max-width: 280px) {
+	.cardTitle {
+		font-size: 0.8rem;
+	}
+}

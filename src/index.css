@@ -1,13 +1,26 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: 'Monoid', serif;
+	background: #fdfdfd;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: 'Monoid';
+}
+
+@font-face {
+	font-family: 'Monoid';
+	src: local('Monoid'), url(./fonts/Monoid/Monoid-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'STIXGeneral';
+	src: local('STIXGeneral'), url(./fonts/STIXGeneral/STIXGeneralBol.otf) format('truetype');
+}
+
+@font-face {
+	font-family: 'StencilStd';
+	src: local('StencilStd'), url(./fonts/StencilStd/StencilStd.otf) format('truetype');
 }

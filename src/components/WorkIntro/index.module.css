@@ -1,0 +1,102 @@
+.image {
+	width: 30rem;
+	height: auto;
+	text-align: center;
+}
+
+.centerDiv {
+	display: inline-block;
+	text-align: left;
+	margin-top: 8rem;
+}
+
+.subtitle {
+	font-family: 'monoid';
+	font-size: 2rem;
+	color: #272343;
+	font-weight: bold;
+	margin-left: 3rem;
+}
+
+@media only screen and (max-width: 871px) {
+	.image {
+		margin-top: 2rem;
+		width: 22rem;
+		height: auto;
+	}
+
+	.subtitle {
+		font-family: 'monoid';
+		font-size: 1.4rem;
+		color: #272343;
+		font-weight: bold;
+		margin-left: 3rem;
+	}
+
+	.centerDiv {
+		display: inline-block;
+		text-align: left;
+		margin-top: 8rem;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.image {
+		margin-top: 2rem;
+		width: 22rem;
+		height: auto;
+	}
+
+	.subtitle {
+		font-family: 'monoid';
+		font-size: 1.4rem;
+		color: #272343;
+		font-weight: bold;
+		margin-left: 3rem;
+	}
+
+	.centerDiv {
+		display: inline-block;
+		text-align: left;
+		margin-top: 3rem;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.image {
+		width: 20rem;
+		height: auto;
+		margin-top: -2rem;
+	}
+
+	.subtitle {
+		font-family: 'monoid';
+		font-size: 1.6rem;
+		color: #272343;
+		font-weight: bold;
+		margin-left: 1rem;
+	}
+
+	.centerDiv {
+		display: inline-block;
+		text-align: left;
+		padding: 4rem;
+		margin-top: -2rem;
+	}
+}
+
+@media only screen and (max-width: 280px) {
+	.image {
+		margin-top: -2rem;
+		width: 17rem;
+		height: auto;
+	}
+
+	.subtitle {
+		font-family: 'monoid';
+		font-size: 1.5rem;
+		color: #272343;
+		font-weight: bold;
+		padding-right: 2rem;
+	}
+}

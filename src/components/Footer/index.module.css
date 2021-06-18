@@ -1,0 +1,58 @@
+.description {
+	color: #fdfdfd;
+	margin-left: 1rem;
+	font-family: monoid;
+	font-size: 0.6rem;
+	margin-top: 1rem;
+}
+
+.image {
+	height: 1.3rem;
+	width: auto;
+	text-align: center;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	margin-top: 0.6rem;
+}
+
+@media only screen and (max-width: 1240px) {
+	.description {
+		font-size: 0.5rem;
+	}
+}
+
+@media only screen and (max-width: 1075px) {
+	.description {
+		font-size: 0.4rem;
+	}
+
+	.image {
+		height: 1.1rem;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 794px) {
+	.description {
+		font-size: 0.4rem;
+	}
+
+	.image {
+		height: 1.1rem;
+		width: auto;
+		margin-top: 1rem;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.description {
+		font-size: 0.8rem;
+	}
+
+	.image {
+		height: 1.3rem;
+		width: auto;
+		margin-bottom: 1rem;
+		margin-left: 0.5rem;
+	}
+}
