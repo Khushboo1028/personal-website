@@ -33,6 +33,26 @@
 	margin-bottom: 0rem;
 }
 
+.alink {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+.alink:visited {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+.alink:hover {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+.alink:active {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
 @media only screen and (max-width: 871px) {
 	.cardTitle {
 		font-size: 1rem;

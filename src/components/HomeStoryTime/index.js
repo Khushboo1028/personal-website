@@ -17,7 +17,7 @@ const HomeMySpace = () => {
 				}}>
 				<Row>
 					<Col md={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }}>
-						<h1 className={styles.title}>So it's Story Time!</h1>
+						<h1 className={styles.title}>It's Story Time!</h1>
 						<p className={styles.description}>
 							I quenched my thirst of creating by learning how to make apps!<br />
 							<br />

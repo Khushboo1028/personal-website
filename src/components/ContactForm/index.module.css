@@ -1,0 +1,26 @@
+.button {
+	height: auto !important;
+	width: 13rem !important;
+	padding: 0.4rem !important;
+	margin-top: 1rem !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 1rem !important;
+	/* text-transform: uppercase; */
+	letter-spacing: 2px !important;
+	font-weight: 500 !important;
+	color: #272343 !important;
+	background-color: #fdfdfd !important;
+	border: none !important;
+	border-radius: 20px !important;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1) !important;
+	transition: all 0.3s ease 0s !important;
+	cursor: pointer !important;
+	outline: none !important;
+}
+
+.button:hover {
+	background-color: #e0dede !important;
+	box-shadow: 0px 15px 20px rgba(39, 35, 67, 0.4) !important;
+	color: #272343 !important;
+	transform: translateY(-7px) !important;
+}

@@ -3,6 +3,7 @@ import styles from './index.module.css';
 import { Row, Col } from 'react-bootstrap';
 import Jump from 'react-reveal/Zoom';
 import { Link } from 'react-router-dom';
+import Bounce from 'react-reveal/Bounce';
 
 import photoshop from '../../assets/skills/adobe-photoshop.png';
 import premierePro from '../../assets/skills/adobe-premiere-pro.png';
@@ -24,7 +25,6 @@ import python from '../../assets/skills/python.png';
 import react from '../../assets/skills/react.png';
 import vscode from '../../assets/skills/visual-studio-code.png';
 import yarn from '../../assets/skills/yarn.png';
-import Bounce from 'react-reveal/Bounce';
 
 const SkillsCarousel = () => {
 	return (

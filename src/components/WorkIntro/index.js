@@ -21,7 +21,9 @@ const WorkIntro = () => {
 						<div className={styles.centerDiv}>
 							<Row>
 								<h1 className={styles.subtitle}>
-									Thank you for showing<br /> an eye on my work. <br /> <br />It means a lot :)
+									Here's a timeline of my projects thus far!
+									<br />
+									<br /> Happy Scrolling :)
 								</h1>
 							</Row>
 						</div>

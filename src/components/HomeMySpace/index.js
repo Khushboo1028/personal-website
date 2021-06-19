@@ -8,7 +8,13 @@ import { Link } from 'react-scroll';
 const HomeMySpace = () => {
 	return (
 		<div className={styles.horizontalLine}>
-			<div style={{ marginTop: '2rem', padding: '1rem' }}>
+			<div
+				style={{
+					marginTop    : '2rem',
+					padding      : '1rem',
+					paddingLeft  : '3rem',
+					paddingRight : '3rem'
+				}}>
 				<Row>
 					<Col style={{ textAlign: 'center' }} md={{ span: 6 }} xs={{ span: 12 }}>
 						<div
@@ -35,8 +41,8 @@ const HomeMySpace = () => {
 				</Row>
 
 				<Row>
-					<Col />
-					<Col>
+					<Col md={{ span: 6 }} xs={{ span: 12 }} lg={{ span: 6 }} />
+					<Col md={{ span: 6 }} xs={{ span: 12 }} lg={{ span: 6 }}>
 						<Bounce right>
 							<Link to="story">
 								<button className={styles.button}>So! What have I done so far?</button>

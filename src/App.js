@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import WorkPage from './pages/WorkPage';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
+import ConnectPage from './pages/ConnectPage';
 
 function App() {
 	const [ isOpen, setIsOpen ] = useState(false);
@@ -17,6 +18,7 @@ function App() {
 			<Switch>
 				<Route path="/" exact component={HomePage} />
 				<Route path="/work" exact component={WorkPage} />
+				<Route path="/connect" exact component={ConnectPage} />
 
 				{/* <Route path="*" component={NotFound} /> */}
 			</Switch>

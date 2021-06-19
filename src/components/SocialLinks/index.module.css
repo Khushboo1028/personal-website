@@ -1,0 +1,139 @@
+.imageMail {
+	width: 3rem;
+	height: auto;
+}
+
+.image {
+	width: 2rem;
+	height: auto;
+}
+
+.text {
+	padding-top: 0.8rem;
+	text-align: left;
+	margin-left: 0.2rem;
+}
+
+.alignImages {
+	text-align: 'center';
+	padding-left: '3rem';
+}
+@media only screen and (max-width: 1077px) {
+	.image {
+		width: 1.6rem;
+		height: auto;
+	}
+
+	.imageMail {
+		width: 2.5rem;
+		height: auto;
+	}
+
+	.text {
+		padding-top: 0.6rem;
+		margin-left: 0.5rem;
+	}
+}
+
+@media only screen and (max-width: 805px) {
+	.image {
+		width: 1.2rem;
+		height: auto;
+	}
+
+	.imageMail {
+		width: 2rem;
+		height: auto;
+	}
+
+	.text {
+		padding-top: 0.3rem;
+		margin-left: 0.5rem;
+	}
+}
+
+@media only screen and (max-width: 714px) {
+	.image {
+		width: 1.8rem;
+		height: auto;
+	}
+
+	.imageMail {
+		width: 3rem;
+		height: auto;
+	}
+
+	.text {
+		padding-top: 0.8rem;
+		margin-left: 0.2rem;
+	}
+}
+
+@media only screen and (max-width: 614px) {
+	.image {
+		width: 1.4rem;
+		height: auto;
+	}
+
+	.imageMail {
+		width: 2.5rem;
+		height: auto;
+	}
+
+	.text {
+		padding-top: 0.6rem;
+		margin-left: 0.2rem;
+	}
+}
+
+@media only screen and (max-width: 496px) {
+	.image {
+		width: 1.4rem;
+		height: auto;
+	}
+
+	.imageMail {
+		width: 2rem;
+		height: auto;
+	}
+
+	.text {
+		padding-top: 0.2rem;
+		margin-left: 0.2rem;
+	}
+}
+
+@media only screen and (max-width: 461px) {
+	.image {
+		width: 1.4rem;
+		height: auto;
+	}
+
+	.imageMail {
+		width: 2rem;
+		height: auto;
+	}
+
+	.text {
+		padding-top: 0.2rem;
+		margin-left: 0.2rem;
+		color: #272343;
+	}
+}
+
+@media only screen and (max-width: 424px) {
+	.image {
+		width: 1.1rem;
+		height: auto;
+	}
+
+	.imageMail {
+		width: 1.6rem;
+		height: auto;
+	}
+
+	.text {
+		padding-top: 0.2rem;
+		margin-left: 0.2rem;
+	}
+}
