@@ -3,7 +3,7 @@ import styles from './index.module.css';
 import { Row, Col } from 'react-bootstrap';
 import Jump from 'react-reveal/Zoom';
 import { Link } from 'react-router-dom';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 
 import photoshop from '../../assets/skills/adobe-photoshop.png';
 import premierePro from '../../assets/skills/adobe-premiere-pro.png';
@@ -30,12 +30,14 @@ const SkillsCarousel = () => {
 	return (
 		<div className={styles.horizontalLine} id="skills">
 			<div style={{ textAlign: 'center' }}>
-				<Row>
-					<Col sm={12} md={12}>
-						<h1 className={styles.title}>Technical Skills</h1>
-					</Col>
-				</Row>
-				<Jump>
+				<Fade bottom>
+					<Row>
+						<Col sm={12} md={12}>
+							<h1 className={styles.title}>Technical Skills</h1>
+						</Col>
+					</Row>
+				</Fade>
+				<Fade bottom>
 					<Row style={{ marginTop: '2rem' }}>
 						<Col md={3} sm={3} xs={6}>
 							<img className={styles.imgStyle} src={react} alt="react" />
@@ -50,9 +52,9 @@ const SkillsCarousel = () => {
 							<img className={styles.imgStyle} src={npm} alt="npm" />
 						</Col>
 					</Row>
-				</Jump>
+				</Fade>
 				{/* Row 2 */}
-				<Jump>
+				<Fade bottom>
 					<Row>
 						<Col md={3} sm={3} xs={6}>
 							<img className={styles.imgStyle} src={nodeJS} alt="nodejs" />
@@ -67,10 +69,10 @@ const SkillsCarousel = () => {
 							<img className={styles.imgStyle} src={cplus} alt="c++" />
 						</Col>
 					</Row>
-				</Jump>
+				</Fade>
 				{/* Row 3 */}
 
-				<Jump>
+				<Fade bottom>
 					<Row>
 						<Col md={3} sm={3} xs={6}>
 							<img className={styles.imgStyle} src={html} alt="html" />
@@ -85,10 +87,10 @@ const SkillsCarousel = () => {
 							<img className={styles.imgStyle} src={github} alt="github" />
 						</Col>
 					</Row>
-				</Jump>
+				</Fade>
 				{/* Row 4 */}
 
-				<Jump>
+				<Fade bottom>
 					<Row>
 						<Col md={3} sm={3} xs={6}>
 							<img className={styles.imgStyle} src={androidStudio} alt="android studio" />
@@ -104,11 +106,11 @@ const SkillsCarousel = () => {
 							<img className={styles.imgStyle} src={mongodb} alt="mongodb" />
 						</Col>
 					</Row>
-				</Jump>
+				</Fade>
 
 				{/* Row 5*/}
 
-				<Jump>
+				<Fade bottom>
 					<Row>
 						<Col md={3} sm={3} xs={6}>
 							<img className={styles.imgStyle} src={postman} alt="android studio" />
@@ -124,25 +126,27 @@ const SkillsCarousel = () => {
 							<img className={styles.imgStyle} src={premierePro} alt="premierePro" />
 						</Col>
 					</Row>
-				</Jump>
+				</Fade>
 			</div>
 
 			<div style={{ marginTop: '2rem', padding: '3rem' }}>
-				<Row style={{ textAlign: 'center' }}>
-					<Col md={6} sm={6} xs={12}>
-						<h2 className={styles.description}>
-							So, now that you have gone through all that I know, why don’t we have a look at some of my
-							projects?
-						</h2>
-					</Col>
-					<Col md={6} sm={6} xs={12} style={{ textAlign: 'center' }}>
-						<Bounce right>
-							<Link to="/work">
-								<button className={styles.button}>Click to view projects!</button>
-							</Link>
-						</Bounce>
-					</Col>
-				</Row>
+				<Fade bottom>
+					<Row style={{ textAlign: 'center' }}>
+						<Col md={6} sm={6} xs={12}>
+							<h2 className={styles.description}>
+								So, now that you have gone through all that I know, why don’t we have a look at some of
+								my projects?
+							</h2>
+						</Col>
+						<Col md={6} sm={6} xs={12} style={{ textAlign: 'center' }}>
+							<Fade bottom>
+								<Link to="/work">
+									<button className={styles.button}>Click to view projects!</button>
+								</Link>
+							</Fade>
+						</Col>
+					</Row>
+				</Fade>
 			</div>
 		</div>
 	);

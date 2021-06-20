@@ -7,7 +7,6 @@ import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import styles from './index.module.css';
-import mail from '../../assets/connect/mail.png';
 
 import emailjs from 'emailjs-com';
 
@@ -41,7 +40,7 @@ const ContactForm = () => {
 			};
 			console.log(templateParams);
 
-			emailjs.send('contact_service', 'contact_form', templateParams).then(
+			emailjs.send('service_q4zmzzi', 'template_77itrdn', templateParams, 'user_jbd7hzDvLU7zmEX2wXnPv').then(
 				function(response) {
 					setName('');
 					setEmail('');
@@ -53,7 +52,7 @@ const ContactForm = () => {
 				},
 				function(error) {
 					setLoading(false);
-					alert('Uh-Oh. Error sending form. You can contact me directly at asmservices@outlook.com');
+					alert('Uh-Oh. Error sending form. You can contact me directly at khushboo1028@gmail.com');
 				}
 			);
 		}
@@ -74,7 +73,7 @@ const ContactForm = () => {
 
 	const loadingButton = () => {
 		return (
-			<Button type="submit" className="submit-button" disabled>
+			<Button type="submit" className={styles.button} disabled>
 				<Spinner as="span" animation="grow" size="sm" role="status" aria-hidden="true" style={{}} /> Loading...{' '}
 			</Button>
 		);
@@ -153,14 +152,14 @@ const ContactForm = () => {
 									</Form.Control.Feedback>
 								</Form.Group>
 							</Form.Group>
-							<div style={{ textAlign: 'right' }}>{loading ? loadingButton() : normalButton()}</div>
+							<div className={styles.buttonAlign}>{loading ? loadingButton() : normalButton()}</div>
 						</Form>
 
 						<Modal show={show} onHide={handleClose}>
-							<Modal.Header closeButton>
+							<Modal.Header>
 								<Modal.Title>Successfully Submitted Form</Modal.Title>
 							</Modal.Header>
-							<Modal.Body>Thank you. We will reach out to you shortly..!</Modal.Body>
+							<Modal.Body>Thank you for contacting me! I will respond ASAP.</Modal.Body>
 							<Modal.Footer>
 								<Button variant="secondary" onClick={handleClose}>
 									Close

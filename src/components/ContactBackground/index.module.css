@@ -18,3 +18,12 @@
 	text-align: left;
 	color: #272343;
 }
+
+.card {
+	background-color: #272343;
+	height: 30rem;
+}
+
+.social {
+	margin-top: 3rem;
+}
