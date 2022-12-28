@@ -40,6 +40,10 @@ const HomeMySpace = () => {
                 grateful to you!
                 <br />
                 <br />I enjoy creating, designing, developing and learning!
+                <br />
+                <br />I am currently pursuing Msc in computer science at San
+                Francisco State University, California.
+                <br />
               </p>
             </Col>
           </Row>

@@ -14,12 +14,12 @@ const index = () => {
         style={{
           textAlign: "center",
           background: "#272343",
-          marginTop: "5rem",
+          marginTop: "5rem"
         }}
       >
         <Col md={3} xs={12}>
           <a
-            href="https://firebasestorage.googleapis.com/v0/b/sayhellotokhushboo.appspot.com/o/khushboo-gandhi-resume.pdf?alt=media&token=3b09b2ef-06f7-40db-b8e3-423c4a91d9d1"
+            href="https://drive.google.com/file/d/1k97cpyvywZ5KvKglLFd2mOpjOjIatrnz/view?usp=sharing"
             style={{ textDecoration: "None" }}
             rel="noreferrer"
             target="_blank"
