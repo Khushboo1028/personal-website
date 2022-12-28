@@ -13,7 +13,7 @@ const HomeMySpace = () => {
           marginTop: "2rem",
           padding: "1rem",
           paddingLeft: "3rem",
-          paddingRight: "3rem",
+          paddingRight: "3rem"
         }}
       >
         <Fade bottom>
@@ -27,7 +27,7 @@ const HomeMySpace = () => {
                 style={{
                   position: "relative",
                   top: "50%",
-                  transform: "translateY(-50%)",
+                  transform: "translateY(-50%)"
                 }}
               >
                 <img className={styles.imgStyle} src={TreeImage} alt="tree" />
@@ -40,10 +40,6 @@ const HomeMySpace = () => {
                 grateful to you!
                 <br />
                 <br />I enjoy creating, designing, developing and learning!
-                <br />
-                <br />I am a 23 year old software engineer pursuing Msc in
-                computer science at San Francisco State University, California.
-                <br />
               </p>
             </Col>
           </Row>
